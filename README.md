@@ -1,7 +1,7 @@
 # AluraPlay
 
 <p>
-  Projeto desenvolvido durante três cursos da Alura:
+  Projeto desenvolvido durante dois cursos da Alura:
 </p>
 
 <ul>

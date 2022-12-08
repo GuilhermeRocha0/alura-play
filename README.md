@@ -6,7 +6,7 @@
 
 <ul>
   <li>
-    <a href="**https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first**" rel="noopener noreferrer" target="_blank">
+    <a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first" rel="noopener noreferrer" target="_blank">
     CSS: Flexbox e layouts responsivos
     </a>
   </li>

@@ -1,3 +1,6 @@
+@import url('./flexbox.css');
+@import url('./form.css');
+
 *,
 *::before,
 *::after {
@@ -43,6 +46,11 @@ body {
   cursor: pointer;
 }
 
+.search__form {
+  display: flex;
+  align-items: center;
+}
+
 .search__input {
   width: 26rem;
   height: 3.2rem;
@@ -50,16 +58,17 @@ body {
   font-size: 1.6rem;
   padding: 0.3rem 0.8rem;
   border: 1px solid rgb(211, 211, 211);
+  color: #000;
 }
 
-.search__label {
+.search__button {
   background-image: url(../img/header/search.png);
   background-repeat: no-repeat;
   background-position: center;
   border: 1px solid rgb(211, 211, 211);
   background-color: #f9f9f9;
   border-left: none;
-  padding: 0.8rem 1.8rem 0.5rem;
+  padding: 1.5rem 1.5rem;
   cursor: pointer;
 }
 
@@ -219,13 +228,25 @@ body {
 .videos__container {
   color: black;
   padding: 16rem 2rem 1rem 2rem;
+  margin-block: 2.4rem;
+}
+
+.videos__item {
+  margin: 0.2rem;
+  padding-bottom: 1.6rem;
 }
 
 .videos__item:hover {
-  transform: scale(1.3);
+  transform: scale(1.01);
   background-color: var(--light-blue);
   z-index: 2;
   transition: 0.5s;
+}
+
+.description-video img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
 }
 
 .description-video h3 {

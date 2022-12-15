@@ -1,0 +1,23 @@
+{
+  "name": "alura-play",
+  "description": "<p>   Projeto desenvolvido durante dois cursos da Alura: </p>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeRocha0/alura-play.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeRocha0/alura-play/issues"
+  },
+  "homepage": "https://github.com/GuilhermeRocha0/alura-play#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}

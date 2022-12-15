@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+
+    <script src="../js/createVideo.js" type="module" defer></script>
+    <title>AluraPlay</title>
+  </head>
+
+  <body>
+    <header__container>
+      <nav class="header__container">
+        <a class="logo" href="../index.html">
+          <h1 class="logo__item" href="#"></h1>
+        </a>
+
+        <div class="header__icons">
+          <a href="./send-video.html" class="header__videos"></a>
+        </div>
+      </nav>
+    </header__container>
+
+    <main class="container">
+      <form class="container__form" data-form>
+        <h2 class="form__title">Envie um vídeo!</h2>
+        <div class="form__field">
+          <label class="field__tag" for="url">Link embed</label>
+          <input
+            name="url"
+            class="field__input"
+            required
+            placeholder="Por exemplo: https://www.youtube.com/embed/FAY1K2aUg5g"
+            id="url"
+            data-url
+          />
+        </div>
+
+        <div class="form__field">
+          <label class="field__tag" for="title">Título do vídeo</label>
+          <input
+            name="title"
+            class="field__input"
+            required
+            placeholder="Neste campo, dê o nome do vídeo"
+            id="title"
+            data-title
+          />
+        </div>
+
+        <div class="form__field">
+          <label class="field__tag" for="image">Imagem de perfil</label>
+          <input
+            name="image"
+            class="field__input"
+            required
+            placeholder="Insira a url da image"
+            id="image"
+            data-image
+          />
+        </div>
+
+        <input class="form__button" type="submit" />
+      </form>
+    </main>
+  </body>
+</html>
